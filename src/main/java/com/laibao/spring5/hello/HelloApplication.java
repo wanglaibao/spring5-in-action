@@ -20,7 +20,7 @@ public class HelloApplication {
     MessageService mockMessageService() {
         return new MessageService() {
             public String getMessage() {
-                return "Hello World!";
+                return "Hello World!\n This is the simple Spring Hello World Example";
             }
         };
     }
