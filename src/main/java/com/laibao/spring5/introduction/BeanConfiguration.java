@@ -1,4 +1,4 @@
-package com.laibao.spring5.hello;
+package com.laibao.spring5.introduction;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
