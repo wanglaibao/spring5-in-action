@@ -4,7 +4,7 @@
 
 * [官方文档](https://docs.spring.io/spring/docs/current/spring-framework-reference/)
 
-* [MyBatis Code Resource](https://github.com/mybatis/mybatis-3)
+* [Quick Start](https://projects.spring.io/spring-framework/)
 
 * [Mybatis Dynamic Sql](https://github.com/mybatis/mybatis-dynamic-sql)
 
