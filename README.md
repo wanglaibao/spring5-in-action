@@ -14,6 +14,6 @@
 
 * [Spring At StackOverFlow](https://spring.io/questions)
 
-* [Spring Framework WIKI](https://github.com/spring-projects/spring-framework/wiki)
+* [Spring Framework Wiki](https://github.com/spring-projects/spring-framework/wiki)
 
 
