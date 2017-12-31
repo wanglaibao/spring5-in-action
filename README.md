@@ -8,7 +8,7 @@
 
 * [Quick Start](https://projects.spring.io/spring-framework/)
 
-* [MyBatis Sub Projects List](https://github.com/mybatis)
+* [Spring Initializr](https://start.spring.io/)
 
 * [An Introduction to iBatis (MyBatis)](https://javamagic.wordpress.com/2012/02/22/an-introduction-to-ibatis-mybatis-an-alternative-to-hibernate-and-jdbc/)
 
