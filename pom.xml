@@ -9,6 +9,7 @@
     <modules>
         <module>introduction</module>
         <module>springintroductionandpatterns</module>
+        <module>commondesignpatterns</module>
     </modules>
     <packaging>pom</packaging>
 
