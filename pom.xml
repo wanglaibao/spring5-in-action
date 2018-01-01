@@ -8,6 +8,7 @@
     <version>1.0.0-SNAPSHOT</version>
     <modules>
         <module>introduction</module>
+        <module>springintroductionandpatterns</module>
     </modules>
     <packaging>pom</packaging>
 
