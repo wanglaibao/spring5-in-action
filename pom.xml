@@ -10,6 +10,7 @@
         <module>introduction</module>
         <module>springintroductionandpatterns</module>
         <module>commondesignpatterns</module>
+        <module>springdependencyinjection</module>
     </modules>
     <packaging>pom</packaging>
 
