@@ -11,6 +11,7 @@
         <module>springintroductionandpatterns</module>
         <module>commondesignpatterns</module>
         <module>springdependencyinjection</module>
+        <module>springfactorybean</module>
     </modules>
     <packaging>pom</packaging>
 
