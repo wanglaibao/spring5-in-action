@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans-4.3.xsd">
+
+
+    <bean id="transferService" class="com.laibao.spring5.springfactorybean.service.impl.TransferServiceImpl">
+        <constructor-arg ref="accountRepository"/>
+        <constructor-arg ref="transferRepository"/>
+    </bean>
+
+    <bean id="accountRepository" class="com.laibao.spring5.springfactorybean.repository.impl.JdbcAccountRepositoryFactoryBean"/>
+
+    <bean id="transferRepository" class="com.laibao.spring5.springfactorybean.repository.impl.JdbcTransferRepositoryFactoryBean"/>
+</beans>
