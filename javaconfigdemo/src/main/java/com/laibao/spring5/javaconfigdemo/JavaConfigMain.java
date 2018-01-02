@@ -11,7 +11,9 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
  */
 public class JavaConfigMain {
     public static void main(String[] args) {
-        AnnotationConfigApplicationContext applicationContext = new AnnotationConfigApplicationContext(ApplicationConfiguration.class);
+        AnnotationConfigApplicationContext applicationContext = new AnnotationConfigApplicationContext();
+        applicationContext.register(ApplicationConfiguration.class);
+        applicationContext.refresh();
         HelloWorld helloWorld = applicationContext.getBean(HelloWorld.class);
         helloWorld.getMessage();
         applicationContext.close();
