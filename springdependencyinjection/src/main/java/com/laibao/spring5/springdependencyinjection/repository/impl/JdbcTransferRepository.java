@@ -14,5 +14,6 @@ public class JdbcTransferRepository implements TransferRepository{
     @Override
     public void transfer(Account accountA, Account accountB, double amount) {
         System.out.println("Transfering amount from account A to B via JDBC implementation");
+        System.out.println("accountA's name is "+accountA.getName()+ " and accountB's name is" + accountB.getName()+ " and transfered money is "+ amount);
     }
 }
