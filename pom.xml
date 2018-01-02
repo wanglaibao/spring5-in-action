@@ -12,6 +12,7 @@
         <module>commondesignpatterns</module>
         <module>springdependencyinjection</module>
         <module>springfactorybean</module>
+        <module>javaconfigdemo</module>
     </modules>
     <packaging>pom</packaging>
 
