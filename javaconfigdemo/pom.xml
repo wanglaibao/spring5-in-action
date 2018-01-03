@@ -11,5 +11,14 @@
 
     <artifactId>javaconfigdemo</artifactId>
 
+    <!--<dependencies>-->
+        <!--&lt;!&ndash; https://mvnrepository.com/artifact/org.springframework.javaconfig/spring-javaconfig &ndash;&gt;-->
+        <!--<dependency>-->
+            <!--<groupId>org.springframework.javaconfig</groupId>-->
+            <!--<artifactId>spring-javaconfig</artifactId>-->
+            <!--<version>1.0.0.m3</version>-->
+        <!--</dependency>-->
+    <!--</dependencies>-->
+
 
 </project>
