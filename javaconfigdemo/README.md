@@ -9,3 +9,5 @@
 ### 2. JavaConfig Doc
 
 * [Spring JavaConfig Doc](https://docs.spring.io/spring-javaconfig/docs/1.0.0.M4/reference/htmlsingle/spring-javaconfig-reference.html)
+
+* [Spring JavaConfig Samples](https://docs.spring.io/spring-javaconfig/site/spring-javaconfig-samples/spring-javaconfig-samples-atrequired/project-info.html)
