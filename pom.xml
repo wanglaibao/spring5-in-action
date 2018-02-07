@@ -13,6 +13,8 @@
         <module>springdependencyinjection</module>
         <module>springfactorybean</module>
         <module>javaconfigdemo</module>
+        <module>springbaseconfiguration</module>
+        <module>spring5proxypatterns</module>
     </modules>
     <packaging>pom</packaging>
 
