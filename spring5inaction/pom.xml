@@ -12,7 +12,11 @@
 
     <groupId>com.laibao.spring5</groupId>
     <artifactId>spring5inaction</artifactId>
+    <packaging>pom</packaging>
     <version>1.0.0-SNAPSHOT</version>
+    <modules>
+        <module>ch01</module>
+    </modules>
 
     <!--
         Spring Boot - parent pom when you already have a parent pom
@@ -56,22 +60,34 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
+
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-java</artifactId>
+            <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>htmlunit-driver</artifactId>
+            <scope>test</scope>
+        </dependency>
     </dependencies>
 
-    <plugins>
-        <plugin>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-maven-plugin</artifactId>
-            <version>2.0.6.RELEASE</version>
-            <!--<executions>-->
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+                <!--<version>2.0.6.RELEASE</version>-->
+                <!--<executions>-->
                 <!--<execution>-->
-                    <!--<goals>-->
-                        <!--<goal>repackage</goal>-->
-                    <!--</goals>-->
+                <!--<goals>-->
+                <!--<goal>repackage</goal>-->
+                <!--</goals>-->
                 <!--</execution>-->
-            <!--</executions>-->
-        </plugin>
-    </plugins>
-
-
+                <!--</executions>-->
+            </plugin>
+        </plugins>
+    </build>
 </project>
